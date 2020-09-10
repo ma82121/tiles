@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls snapshot 1`] = `
+<div
+  class="controls is-bg-3"
+>
+  <div
+    class="controls-item"
+  >
+    <div
+      class="button is-prev"
+      disabled="disabled"
+    >
+      <i
+        class="fas fa-caret-left fa-4x"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="controls-item is-stage"
+  >
+    <div
+      class="text-box"
+    >
+      <div
+        class="text-box-head"
+      >
+        
+        STAGE
+      
+      </div>
+       
+      <div
+        class="text-box-body"
+      >
+        <span>
+          
+          6
+        
+        </span>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="controls-item"
+  >
+    <div
+      class="button is-retry"
+    >
+      <i
+        class="fas fa-undo-alt fa-3x"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="controls-item is-count"
+  >
+    <div
+      class="text-box"
+    >
+      <div
+        class="text-box-head"
+      >
+        
+        COUNT
+      
+      </div>
+       
+      <div
+        class="text-box-body"
+      >
+        
+        0
+      
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="controls-item"
+  >
+    <div
+      class="button is-next"
+      disabled="disabled"
+    >
+      <i
+        class="fas fa-caret-right fa-4x"
+      />
+    </div>
+  </div>
+</div>
+`;

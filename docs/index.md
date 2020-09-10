@@ -1,0 +1,36 @@
+# 開発ドキュメント
+
+- INDEX
+- 要件定義
+  - [草案](./requirement/draft.md)
+  - [プレイヤーの動作環境](./requirement/spec.md)
+- 開発環境
+  - [基本情報](./devenv/basic.md)
+  - [Installation](./devenv/installation.md)
+  - [環境変数](./devenv/env.md)
+  - [コマンド一覧](./devenv/command.md)
+- 基本設計
+  - [環境設計](./basic-design/environment.md)
+  - [URL一覧](./basic-design/url.md)
+  - 画面一覧
+  - 画面遷移図
+  - API一覧
+- 詳細設計
+- ガイドライン
+  - [デザインガイドライン](./guideline/design.md)
+  - [コーディングガイドライン](./guideline/coding.md)
+- ディレクトリ構造
+  - [ルートディレクトリ構成](./directory/root.md)
+  - [components](./directory/components.md)
+  - [layouts](./directory/layouts.md)
+  - pages
+  - [plugins](./directory/plugins.md)
+  - [store](./directory/store.md)
+- テストコード
+  - [方針](./test-code/policy.md)
+  - [記述ルール](./test-code/rules.md)
+- 検証
+  - 方針
+  - パフォーマンス検証
+- 運用
+  - [方針](./operation/policy.md)

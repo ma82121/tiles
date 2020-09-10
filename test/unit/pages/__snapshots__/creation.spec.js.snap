@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creation snapshot 1`] = `
+<div
+  class="creation-page"
+>
+  <bg-stub
+    isfixed="true"
+    type="1"
+  />
+   
+  <menu-stub />
+   
+  <div
+    class="header-title"
+  >
+    Creation
+  </div>
+   
+  <!---->
+</div>
+`;

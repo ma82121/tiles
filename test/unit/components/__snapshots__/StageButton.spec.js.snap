@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StageButton snapshot 1`] = `
+<div
+  class="stage-button"
+>
+  <div
+    class="stage-button-head"
+    style="display: none;"
+  >
+    
+    0
+  
+  </div>
+   
+  <div
+    class="stage-button-body"
+  >
+    <div
+      class="stage-button-board"
+    >
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-2"
+      />
+      <div
+        class="tile is-3"
+      />
+      <div
+        class="tile is-4"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1 is-open"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1 is-open"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+      <div
+        class="tile is-1"
+      />
+    </div>
+  </div>
+</div>
+`;

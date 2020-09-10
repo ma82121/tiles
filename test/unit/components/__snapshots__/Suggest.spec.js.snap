@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Suggest snapshot 1`] = `
+<div
+  class="suggest"
+>
+  <div
+    class="suggest-message"
+  >
+    
+    10手詰
+  
+  </div>
+</div>
+`;

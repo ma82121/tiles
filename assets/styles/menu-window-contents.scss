@@ -1,0 +1,28 @@
+.menu-window__contents {
+  .menu-heading {
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+  }
+
+  .menu-box {
+    margin: 20px 0;
+  }
+
+  .text {
+    padding-top: 20px;
+  }
+
+  .select-stage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+
+    .select-stage__item {
+      margin: 5px;
+    }
+  }
+}

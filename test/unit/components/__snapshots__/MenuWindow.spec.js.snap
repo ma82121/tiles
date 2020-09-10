@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuWindow snapshot 1`] = `
+<div
+  class="menu-window"
+  style="display: none;"
+>
+  <div
+    class="menu-window-inner"
+  >
+    <div
+      class="menu-title"
+    >
+      
+      遊び方
+    
+    </div>
+     
+    <tablist-stub
+      currentid="tutorial"
+      list="[object Object],[object Object],[object Object],[object Object]"
+    />
+     
+    <div
+      class="menu-window-content"
+    >
+      <menuwindowconfig-stub
+        style="display: none;"
+      />
+       
+      <menuwindowonline-stub
+        style="display: none;"
+      />
+       
+      <menuwindowselectstage-stub
+        style="display: none;"
+      />
+       
+      <menuwindowtutorial-stub />
+    </div>
+  </div>
+</div>
+`;

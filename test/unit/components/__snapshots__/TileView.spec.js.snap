@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TileView snapshot 1`] = `
+<div
+  class="tile is-type-1 is-index-0 is-open is-on-board"
+>
+  <div
+    class="tile-inner"
+  >
+    <span
+      class="tile-front"
+    />
+     
+    <span
+      class="tile-back"
+    />
+  </div>
+   
+  <div
+    class="tile-debug"
+    style="display: none;"
+  >
+    <span
+      class="tile-debug-index"
+    >
+      0
+    </span>
+     
+    <span
+      class="tile-debug-type"
+    >
+      1
+    </span>
+  </div>
+</div>
+`;

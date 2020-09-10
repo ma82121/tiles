@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bg snapshot 1`] = `
+<div
+  class="bg is-type-1 is-fixed"
+/>
+`;

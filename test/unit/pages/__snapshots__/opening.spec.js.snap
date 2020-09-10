@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Opening renders correctly 1`] = `
+<div
+  class="opening"
+>
+  <tileslogo-stub
+    hasanimation="true"
+  />
+</div>
+`;
+
+exports[`Opening snapshot 1`] = `
+<div
+  class="opening"
+>
+  <tileslogo-stub
+    hasanimation="true"
+  />
+</div>
+`;

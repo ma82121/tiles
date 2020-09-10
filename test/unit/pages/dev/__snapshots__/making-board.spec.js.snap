@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MakingBoard snapshot 1`] = `
+<div
+  class="content"
+>
+  <div>
+    <board-stub />
+     
+    <div>
+      <controls-stub
+        bg="1"
+        boardcount="0"
+        boardlogs=""
+        stagecurrent="-1"
+      />
+    </div>
+  </div>
+   
+  <div>
+    <div>
+      
+      Step1 タイルのIDを決定する
+    
+    </div>
+     
+    <div
+      style="display: none;"
+    >
+      
+      Step2 問題を作成する
+    
+    </div>
+     
+    <button
+      class="button is-warning"
+    >
+      
+      Step2
+    
+    </button>
+  </div>
+   
+  <div>
+    問題成立 false
+  </div>
+   
+  <div>
+    
+    Answer
+    
+    <div>
+      []
+    </div>
+  </div>
+</div>
+`;
