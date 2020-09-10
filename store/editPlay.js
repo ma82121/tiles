@@ -30,7 +30,7 @@ export const getters = {
   getTiles: state => {
     return state.tiles
   },
-  suggest: state => {
+  getSuggest: state => {
     return state.suggest
   },
   isRelease: state => {

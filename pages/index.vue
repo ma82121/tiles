@@ -6,7 +6,7 @@
       <TilesLogo />
     </div>
     <div class="board-container">
-      <div>
+      <div class="mb10">
         <div v-if="useSuggest">
           <Suggest :message="suggest" />
         </div>
@@ -19,7 +19,7 @@
           @click="clickTile"
         />
       </div>
-      <div>
+      <div class="mt10">
         <Controls
           :board-count="board.count"
           :board-logs="board.logs"
@@ -59,7 +59,7 @@ export default {
   data() {
     return {
       board: new GameLogicBoard(),
-      isOpening: true,
+      isOpening: false,
       isEnding: false
     }
   },
@@ -81,6 +81,10 @@ export default {
       'setClearStage'
     ]),
     load() {
+      if (this.currentStageIndex === -1) {
+        this.isOpening = true
+        this.nextStage()
+      }
       this.setBoard()
     },
     setBoard() {

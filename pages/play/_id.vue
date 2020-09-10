@@ -2,9 +2,9 @@
   <div>
     <ClearAnimation :is-show="board.isClear" @click="clickClearAnimation" />
     <div class="board-container">
-      <div>
+      <div class="mb10">
         <div v-if="useSuggest">
-          <Suggest :message="suggest" />
+          <Suggest :message="getSuggest" />
         </div>
       </div>
       <div>
@@ -15,7 +15,7 @@
           @click="clickTile"
         />
       </div>
-      <div>
+      <div class="mt10">
         <Controls
           :board-count="board.count"
           :board-logs="board.logs"
@@ -56,8 +56,8 @@ export default {
   },
   computed: {
     ...mapGetters('debug', ['debugMode']),
-    ...mapGetters('config', ['useSuggest', 'useHelper']),
-    ...mapGetters('editPlay', ['board', 'suggest'])
+    ...mapGetters('config', ['bg', 'useSuggest', 'useHelper']),
+    ...mapGetters('editPlay', ['getSuggest'])
   },
   asyncData({ params }) {
     return {

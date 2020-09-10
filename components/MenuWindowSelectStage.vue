@@ -41,7 +41,12 @@ export default {
       if (index <= this.clearStageIndex + 1) {
         this.closeMenu()
         this.setCurrentStage(index)
-        this.$router.go({ name: 'index' })
+
+        if (this.$route.path === '/') {
+          this.$router.go({ name: 'index' })
+          return
+        }
+        this.$router.push({ name: 'index' })
       }
     }
   }

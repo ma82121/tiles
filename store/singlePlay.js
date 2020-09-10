@@ -1,6 +1,6 @@
 export const state = () => ({
   clearStageIndex: -1, // -1 - 24
-  currentStageIndex: 0 // 0 - 24
+  currentStageIndex: -1 // -1 - 24
 })
 
 export const mutations = {

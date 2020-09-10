@@ -1,7 +1,7 @@
 <template>
   <div class="tutorial" @click="onClickTutorial">
     <div class="board-container">
-      <div>
+      <div class="mb10">
         <MessageWindow :message="message" />
       </div>
       <div>
